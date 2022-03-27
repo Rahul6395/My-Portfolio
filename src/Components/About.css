@@ -1,0 +1,275 @@
+
+*{margin:0; padding:0; box-sizing:border-box;}
+.aboutMeSec{
+    width:100%;
+    height:400px;
+    background-color: #212529;
+display: flex;
+}
+
+.aboutMe{width:100%;
+height: 320px;
+margin:auto ;
+
+}
+
+
+.aboutHead{width:100%;
+    color:white;
+    font-size: 36px;
+    font-weight: 600;
+  position: relative;
+  text-align: center;
+  font-family: 'Play', sans-serif;
+  margin: 0;
+}
+
+.aboutHead::before{
+    width:125px;
+    height:2px;
+    content:"";
+    display: block;
+    position: absolute;
+    top:100%;
+    left:45%;
+    background-color: tomato;
+}
+
+.aboutKnow{width:680px;
+    padding-top:30px;
+    text-align: justify;
+font-size:19px;
+color:white;
+margin:0 auto;
+line-height:25px;
+font-family:  sans-serif;
+font-family: "Quicksand",sans-serif;
+}
+
+.dowresume{text-align: center;  
+      margin-top: 25px;}
+.custom-button:hover{color:white;}
+.custom-button, button {
+    background-color: #f06d55;
+    border: none;
+    color: #fff;
+    font-weight: 800;
+    border-radius: 6px;
+    font-size: 18px;
+
+}
+
+a{text-decoration: none;}
+.dIcons{
+    padding:10px 18px 12px 12px;
+}
+
+
+
+ /*   Media Query Start */ 
+
+ @media(max-width:965px) {
+
+    .aboutMeSec{
+        width:100%;
+        height:410px;
+    }
+    .aboutMe{
+    height: 330px;
+    }
+    
+    .aboutHead{
+        font-size: 36px;
+        font-weight: 600;
+    }
+    
+    .aboutHead::before{
+        width:125px;
+        height:2px;
+        top:100%;
+        left:43%;
+    }
+    
+    .aboutKnow{width:600px;
+        padding-top:25px;
+    font-size:19px;
+    line-height:25px; 
+       font-family: "Quicksand",sans-serif;
+    }
+    
+    .dowresume{  
+          margin-top: 25px;}
+
+ 
+    .custom-button, button {
+        font-weight: 800;
+        border-radius: 6px;
+        font-size: 18px;
+    }
+    
+    .dIcons{
+        padding:10px 18px 12px 12px;
+    }
+    
+
+ }
+
+
+
+
+
+ @media(max-width:880px) {
+    .aboutMeSec{
+        width:100%;
+        height:410px;
+    }
+
+    .aboutMe{
+        height: 310px;
+        }
+    .aboutKnow{width:600px;
+        padding-top:25px;
+    font-size:18px;
+    
+    }
+    .dowresume{  
+        margin-top: 33px;}
+
+
+ }
+
+
+ 
+ @media(max-width:680px) {
+    .aboutMeSec{
+        width:100%;
+        height:410px;
+    }
+    .aboutHead::before{
+        width:125px;
+        height:2px;
+        top:100%;
+        left:41%;
+    }
+    
+
+    .aboutMe{
+        height: 340px;
+        }
+    .aboutKnow{width:480px;
+        padding-top:25px;
+    font-size:17px;
+    
+    }
+  
+ }
+
+
+
+
+
+
+  
+ @media(max-width:580px) {
+    .aboutMeSec{
+        width:100%;
+        height:430px;
+    }
+    .aboutHead::before{
+        width:125px;
+        height:2px;
+        top:100%;
+        left:39%;
+    }
+    .aboutMe{
+        height: 360px;
+        }
+    .aboutKnow{width:420px;
+        padding-top:22px;
+    font-size:16px;
+    
+    }
+  
+    }
+
+    
+ @media(max-width:488px) {
+    .aboutMeSec{
+        width:100%;
+        height:450px;
+    }
+    .aboutHead::before{
+        width:125px;
+        height:2px;
+        top:100%;
+        left:36%;
+    }
+    .aboutMe{
+        height: 380px;
+        }
+    .aboutKnow{width:350px;
+        height:250px;
+        padding-top:22px;
+    font-size:15px;
+    
+    }
+    .dowresume{  
+        margin-top: 45px;}
+
+
+  .custom-button, button {
+      font-weight: 800;
+      border-radius: 6px;
+      font-size: 17px;
+  }
+  
+  .dIcons{
+      padding:10px 15px 10px 10px;
+  }
+}
+
+
+
+
+ 
+@media(max-width:400px) {
+    .aboutMeSec{
+        width:100%;
+        height:500px;
+    }
+    .aboutHead{
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .aboutHead::before{
+        width:100px;
+        height:2px;
+        top:100%;
+        left:33%;
+    }
+    .aboutMe{
+        height: 440px;
+        }
+    .aboutKnow{width:250px;
+        height:320px;
+        padding-top:22px;
+    font-size:14px;
+    }
+    .dowresume{  
+        margin-top: 40px;}
+  .custom-button, button {
+      font-weight: 700;
+      border-radius: 6px;
+      font-size: 17px;
+  }
+  .dIcons{
+      padding:10px 12px 10px 8px;
+  }
+}
+
+
+
+@media(max-width:400px) {
+    .dowresume{  
+        margin-top: 68px;}
+}

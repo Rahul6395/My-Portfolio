@@ -1,0 +1,385 @@
+*{margin:0; padding:0; box-sizing:border-box;}
+.myProject {
+  width: 100%;
+  height: 580px;
+  margin: auto 0;
+  background-color:  #1a222b;
+}
+.myProjectHeading {
+  text-align: center;
+  padding:35px 0;margin: 0;
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+font-size: 36px; 
+}
+.myProjectContainer {
+  width: 1150px;
+  height: 400px;
+  margin: 0 auto;
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.projectBox {
+  width: 260px;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+a .projectGitLink {
+  width: 260px;
+  height: 380px;
+}
+.projectLink {
+  width: 100%;
+  height: 380px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 60% 40%;
+  border-radius: 25px;
+  filter: brightness(60%);
+}
+.projectLink:hover{
+  filter: brightness(1); 
+}
+.projectName {
+  color: #ffffff;
+  text-align: center;
+  padding:40px 5px 20px 5px;
+  margin:0;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+}
+.projectDes {  font-size: 20px;
+  width: 200px;
+  color: rgb(13, 14, 13);
+  text-align: justify;
+  margin: auto;
+  font-family: 'Play', sans-serif;
+  font-weight: 600;
+}
+
+
+
+ /*   Media Query Start */ 
+
+ @media(max-width:1245px) {
+
+
+  .myProject {
+    width: 100%;
+    height: 540px;
+  }
+  .myProjectHeading {
+    padding:30px 0;
+  }
+  .myProjectContainer {
+    width: 1005px;
+    height: 360px;
+     }
+  
+  .projectBox {
+    width: 222px;
+  }
+  
+  a .projectGitLink {
+    width: 222px;
+    height: 330px;
+  }
+  .projectLink {
+    width: 100%;
+    height: 330px;
+    border-radius: 25px;
+  }
+  
+  .projectName { font-size: 23px;
+    padding:40px 5px 20px 5px;
+  }
+  .projectDes {
+    width: 180px;
+    font-size: 17px;
+  }
+  
+ }
+
+
+
+
+
+
+ 
+ @media(max-width:1120px) {
+
+
+  .myProject {
+    width: 100%;
+    height: 470px;
+  }
+  .myProjectHeading {
+    padding:30px 0;
+  }
+  .myProjectContainer {
+    width: 860px;
+    height: 300px;
+     }
+  
+  .projectBox {
+    width: 196px;
+  }
+  
+  a .projectGitLink {
+    width: 196px;
+    height: 300px;
+  }
+  .projectLink {
+    width: 100%;
+    height: 300px;
+    border-radius: 25px;
+  }
+  
+  .projectName { font-size: 23px;
+    padding:40px 5px 20px 5px;
+  }
+  .projectDes {
+    width: 180px;
+    font-size: 17px;
+  }
+  
+ }
+
+
+ 
+ 
+ @media(max-width:965px) {
+
+
+  .myProject {
+    width: 100%;
+    height: 445px;
+   
+  }
+  .myProjectHeading {
+    padding:30px 0;
+  }
+  .myProjectContainer {
+    width: 750px;
+    height: 290px;
+  
+     }
+  
+  .projectBox {
+    width: 170px;    
+  }
+  
+  a .projectGitLink {
+    width: 170px;
+    height: 285px;
+  }
+  .projectLink {
+    width: 100%;
+    height: 285px;
+    border-radius: 25px;
+  }
+  
+  .projectName { font-size: 20px;
+    padding:40px 5px 20px 5px;
+  }
+  .projectDes {
+    width: 150px;
+    font-size: 15px;
+  }
+  
+ }
+
+
+
+ 
+ @media(max-width:880px) {
+
+
+  .myProject {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 35px;
+   
+  }
+  .myProjectHeading {
+    padding:30px 0;
+  }
+  .myProjectContainer {
+    width: 660px;
+    height:100%;
+    margin: 0 auto;
+    display: block;
+   
+     }
+  
+  .projectBox {
+    width: 270px;
+    height: 355px;
+  display: inline-block;
+  margin-left: 35px;
+  }
+  
+  a .projectGitLink {
+    width: 270px;
+    height: 330px;
+  }
+  .projectLink {
+    height: 330px;
+    border-radius: 25px;
+  }
+  
+  
+ }
+
+
+
+
+
+  
+ @media(max-width:680px) {
+
+
+  .myProject {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 32px;
+  }
+  .myProjectContainer {
+    width: 555px;
+    margin: 0 auto;
+    display: block;
+     }
+  
+  .projectBox {
+    width: 250px;
+    height: 335px;
+  display: inline-block;
+  margin-left: 20px;
+  }
+  a .projectGitLink {
+    width: 250px;
+    height: 315px;
+  }
+  .projectLink {
+    height: 315px;
+    border-radius: 20px;
+  }
+  
+ }
+
+
+
+ 
+ @media(max-width:580px) {
+
+
+  .myProject {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 28px;
+  }
+  .myProjectContainer {
+    width: 465px;
+    margin: 0 auto;
+    display: block;
+     }
+  
+  .projectBox {
+    width: 205px;
+    height: 308px;
+  display: inline-block;
+  margin-left: 20px;
+  }
+  .proBoxTwo{
+    margin-top:30px;
+  }
+  a .projectGitLink {
+    width: 205px;
+    height: 290px;
+  }
+  .projectLink {
+    height: 290px;
+    border-radius: 18px;
+  }
+}
+
+
+@media(max-width:488px) {
+
+
+  .myProject {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 25px;
+  }
+  .myProjectContainer {
+    width: 380px;
+    margin: 0 auto;
+    display: block;
+     }
+  
+  .projectBox {
+    width: 170px;
+    height: 270px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 7px;
+  }
+  a .projectGitLink {
+    width: 170px;
+    height: 250px;
+  }
+  .projectLink {
+    height: 250px;
+    border-radius: 15px;
+  }
+}
+
+
+
+
+
+
+
+@media(max-width:400px) {
+
+
+  .myProject {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+  }
+  .myProjectHeading {
+    font-size: 32px;
+    font-weight: 600;
+    padding:26px 0;
+   }
+
+  .myProjectContainer {
+    width: 210px;
+    margin: 0 auto;
+    display: block;
+     }
+  
+  .projectBox {
+    width: 210px;
+    height: 270px;
+  display: inline-block;
+  margin-left: 0px;
+  margin-right: 0px;
+  }
+  a .projectGitLink {
+    width: 210px;
+    height: 250px;
+  }
+  .projectLink {
+    height: 250px;
+    border-radius: 15px;
+  }
+}
